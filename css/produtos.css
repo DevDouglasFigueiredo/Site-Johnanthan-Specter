@@ -1,0 +1,35 @@
+.produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    
+
+}
+
+.produtos__titulo{
+    font-size: 2rem;
+    font-family: 'Prata', serif;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+
+.descricao__produto{
+    color: #a0a0a0;
+    font-family: 'Inter', serif;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    
+}
+
+.produto-1{
+    grid-column: 1;
+
+}
+
+.produto-2{
+    grid-column: 2;
+
+}

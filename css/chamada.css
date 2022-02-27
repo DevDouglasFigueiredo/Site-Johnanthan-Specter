@@ -1,0 +1,36 @@
+.chamada{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 3rem;
+    margin-left: 4.5rem;
+    
+}
+
+
+.chamada__titulo{
+    font-size: 3.4rem;
+    font-family: 'Prata', serif;
+    color: #FFFFFF;
+    text-align: center;
+    grid-column: 1;
+    padding-left: 1.5rem;
+    line-height: 4rem;
+   
+}
+
+.descricao__texto{
+    color: #a0a0a0;
+    grid-column: 1;
+    font-family: 'Inter', serif;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.logo__anunciantes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4rem;
+}

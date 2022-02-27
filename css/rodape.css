@@ -1,0 +1,11 @@
+.rodape{
+    background: #2e3038;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 3rem;
+}
+
+.menu__rodape{
+    margin-right: .5rem;
+}

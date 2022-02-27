@@ -1,0 +1,44 @@
+.citacao{
+    background: #2e3038;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 3rem;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    padding-left: 5rem;
+    padding-right: 3rem;
+    
+}
+
+.citacao-1{
+    display: grid;
+    gap: 2rem;
+    grid-column: 1;
+    
+}
+
+.citacao-2{
+    display: grid;
+    gap: 2rem;
+    grid-column: 2;
+    padding-left: 2rem;
+}
+
+.titulo__citacao{
+    font-family: 'prata', sans-serif;
+    font-size: 2.2rem;
+    color: #fff;
+    padding-bottom: 3rem;
+    text-align: left;
+    
+
+}
+
+.descricao__citacao{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    color: #a0a0a0;
+    
+}

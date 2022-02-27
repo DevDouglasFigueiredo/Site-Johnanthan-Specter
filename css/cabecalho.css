@@ -1,0 +1,46 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.logo__titulo{
+    color: #fff;
+    font-family: 'Prata', serif;
+    font-size: 1.2rem;
+    
+}
+
+.menu{
+    display: flex;
+    
+}
+.menu__link{
+    color: #a0a0a0;
+    font-family: 'Inter', sans-serif;
+    margin-right: 1.5rem;
+    
+}
+
+.menu__link:hover{
+    text-decoration: underline;
+    
+}
+
+.botao{
+    background: #f8e556;
+    font-family:  'Prata', sans-serif;
+    font-size: 1rem;
+    padding: .9rem 1.5rem;
+    border: none;
+}
+
+.botao:hover{
+    background: #fade0f;
+    transition: all .4s ease-in-out;
+}
+
+.botao__mobile{
+    display: none;
+}
