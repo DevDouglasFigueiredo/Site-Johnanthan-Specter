@@ -1,8 +1,21 @@
-const botao__mobile = document.getElementsByClassName('botao__menu');
+const botaoMobile = document.querySelector('.botao__mobile');
+const menuMobile = document.querySelector('.menu');
 
-function toggleMenu(){
-    const menu__nav = document.getElementsByClassName('menu__nav');
-    menu__nav.classlist.toggle('active');
-}
+botaoMobile.addEventListener('click' , () => {
+    menuMobile.classList.toggle('active')
+})
 
-botao__mobile.addEventListener('click', toggleMenu);
+ScrollReveal({
+    duration: 1700,
+}).reveal(`
+  .cabecalho,
+  .chamada,
+  .logo__anunciantes,
+  .anuncio-1,
+  .anuncio-2,
+  .produtos__titulo,
+  .descricao__produto,
+  .produtos,
+  .citacao,
+  .contato,
+  .rodape`);

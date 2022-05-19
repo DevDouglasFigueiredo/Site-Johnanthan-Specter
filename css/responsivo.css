@@ -1,11 +1,30 @@
 @media screen and (max-width: 468px){
-    .menu{
-        display: none;
+
+    .menu__nav .menu__mobile{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        right: 110px;
+        top: 100px;
+        background-color: rgb(75, 72, 68);
+        height: 100vh;
+        z-index: 100;
+        padding-top: 6rem;
+        transition: .5s ease-in-out;
+        width: 100%;
+        max-width: 250px;
+        gap: 3rem;
+        align-items: center;
+        color: #FFF;
     }
 
-    .menu__nav.active .menu{
-        display: flex;
+    .menu__link{
+        color: #FFF;
     }
+
+    .menu__mobile.active{
+        right: -300px;
+    } 
 
     .botao{
         display: none;
@@ -15,6 +34,8 @@
         display: block;
         background: none;
         border: none;
+        z-index: 102;
+        cursor: pointer;
     }
 
     .chamada{
@@ -34,9 +55,42 @@
     .logo__anunciantes{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        margin: 3rem 1rem 3rem 6rem;
-        padding-right: 2rem;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 3rem;
+        margin-block: 2rem;
+        margin-inline: 5rem;
+      
+    }
+
+    .logo__anunciantes :nth-child(1){
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .logo__anunciantes :nth-child(2){
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .logo__anunciantes :nth-child(3){
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .logo__anunciantes :nth-child(4){
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .logo__anunciantes :nth-child(5){
+        grid-column: 1;
+        grid-row: 3;
+        
+    }
+
+    .logo__anunciantes :nth-child(6){
+        grid-column: 2;
+        grid-row: 3;
     }
     
     .anuncio-1, .anuncio-2{
@@ -76,9 +130,30 @@
 }
 
 @media screen and (max-width: 992px){
-    .menu{
-        display: none;
+    .menu__nav .menu__mobile{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        right: 0px;
+        top: 0px;
+        background-color: rgb(75, 72, 68);
+        height: 100vh;
+        z-index: 100;
+        padding-top: 6rem;
+        transition: .5s ease-in-out;
+        width: 100%;
+        max-width: 250px;
+        gap: 3rem;
+        align-items: center;
     }
+
+    .menu__link{
+        color: #FFF;
+    }
+
+    .menu__mobile.active{
+        right: -300px;
+    } 
 
     .botao{
         display: none;
@@ -88,6 +163,8 @@
         display: block;
         background: none;
         border: none;
+        z-index: 102;
+        cursor: pointer;
     }
 
     .chamada{
@@ -107,7 +184,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1rem;
-        margin: 3rem 0rem 3rem 6rem;
+        margin-block: 2rem;
+        margin-inline: 5rem;
     }
 
     .anuncio-1, .anuncio-2{

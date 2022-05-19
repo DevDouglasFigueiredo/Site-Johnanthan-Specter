@@ -16,6 +16,10 @@
     display: flex;
     
 }
+
+.menu__mobile{
+    display: none;
+}
 .menu__link{
     color: #a0a0a0;
     font-family: 'Inter', sans-serif;
@@ -39,6 +43,7 @@
 .botao:hover{
     background: #fade0f;
     transition: all .4s ease-in-out;
+    
 }
 
 .botao__mobile{

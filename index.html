@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +14,7 @@
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/rodape.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title> Home | Johnathan Specter</title>
 </head>
 
@@ -24,7 +24,7 @@
             <h1 class="logo__titulo">Johnathan Specter</h1>
         </div>
         <nav class="menu__nav">
-            <ul class="menu">
+            <ul class="menu menu__mobile active">
                 <li><a class="menu__link" href="#">Articles</a></li>
                 <li><a class="menu__link" href="#">Chats</a></li>
                 <li><a class="menu__link" href="#">Awards</a></li>
@@ -34,8 +34,7 @@
         <div class="botao__nav">
             <button class="botao"><a class="botao__fonte" href="#">Get in touch</a></button>
         </div>
-        <button class="botao__mobile botao__menu"><img src="Developer Portfolio Starter Files/Assets/Hamburger Menu.svg" alt="botao menu"></button>
-        <script src="botao.js"></script>
+        <button class="botao__mobile botao__menu active"><img src="Developer Portfolio Starter Files/Assets/Hamburger Menu.svg" alt="botao menu"></button>
     </header>
     <main class="conteudo">
         <section class="chamada">
@@ -66,52 +65,55 @@
                     open-source platform similar to TripAdvisor. With over 1m MAU, YelpCamp has been the crowd's
                     favorite in 2021.</p>
             </div>
-         </section>
-            <section class="citacao">
-                <div class="citacao-1">
-                    <h4 class="titulo__citacao">A co-founder at one of the <br> world's largest communities.</h4>
+        </section>
+        <section class="citacao">
+            <div class="citacao-1">
+                <h4 class="titulo__citacao">A co-founder at one of the <br> world's largest communities.</h4>
 
-                    <p class="descricao__citacao">The combined experience I have working at the top Fortune 500
-                        companies has allowed me to developer a skillset that helps me in not just development, but in
-                        every aspect of any business.</p>
+                <p class="descricao__citacao">The combined experience I have working at the top Fortune 500
+                    companies has allowed me to developer a skillset that helps me in not just development, but in
+                    every aspect of any business.</p>
 
-                    <p class="descricao__citacao">I'm proud to announce that I am now working at one of the world's
-                        largest communities teaching young minds about how to sell yourself as a developer and open them
-                        to a whole new world of opportunities.</p>
-                </div>
+                <p class="descricao__citacao">I'm proud to announce that I am now working at one of the world's
+                    largest communities teaching young minds about how to sell yourself as a developer and open them
+                    to a whole new world of opportunities.</p>
+            </div>
 
-                <div class="citacao-2">
-                    <p class="descricao__citacao">As a developer, you have everything available to you and all that's
-                        holding you back is yourself</p>
+            <div class="citacao-2">
+                <p class="descricao__citacao">As a developer, you have everything available to you and all that's
+                    holding you back is yourself</p>
 
-                    <p class="descricao__citacao">A quote I live by perfectly illustrates what I mean</p>
+                <p class="descricao__citacao">A quote I live by perfectly illustrates what I mean</p>
 
-                    <p class="descricao__citacao">"How big would you dream, if you knew you wouldn't fail?" You've
-                        already gone through the hardest parts being a developer, it's time to elevate your skills and
-                        become a leader in something you're passionate about</p>
+                <p class="descricao__citacao">"How big would you dream, if you knew you wouldn't fail?" You've
+                    already gone through the hardest parts being a developer, it's time to elevate your skills and
+                    become a leader in something you're passionate about</p>
 
-                    <p class="descricao__citacao">I'm happy to chat over coffee some time about how I can help your
-                        company.</p>
-                </div>
-            </section>
-            <section class="contato">
-                <h5 class="titulo__contato">Interested in working with me?</h5>
-                <p class="descricao__contato">I'm active on social media platforms listed below, but you can also me an email and I will get back to you within 24-48 hours.</p>
-                <button class="botao botao__contato"><a class="botao__fonte" href="#">Get in touch</a></button>
-            </section>
-        </main>
-        <footer class="rodape">
-            <h1 class="logo__titulo">Johnathan Specter</h1>
-            <nav class="nav__rodape">
+                <p class="descricao__citacao">I'm happy to chat over coffee some time about how I can help your
+                    company.</p>
+            </div>
+        </section>
+        <section class="contato">
+            <h5 class="titulo__contato">Interested in working with me?</h5>
+            <p class="descricao__contato">I'm active on social media platforms listed below, but you can also me an
+                email and I will get back to you within 24-48 hours.</p>
+            <button class="botao botao__contato"><a class="botao__fonte" href="#">Get in touch</a></button>
+        </section>
+    </main>
+    <footer class="rodape">
+        <h1 class="logo__titulo">Johnathan Specter</h1>
+        <nav class="nav__rodape">
 
-                <a class="menu__rodape" href="#"><img src="Developer Portfolio Starter Files/Assets/Social Icons/Twitter.svg" alt=""></a>
-                <a class="menu__rodape" href="#"><img src="Developer Portfolio Starter Files/Assets/Social Icons/LinkedIn.svg" alt=""></a>
-                <a class="menu__rodape" href="#"><img src="Developer Portfolio Starter Files/Assets/Social Icons/Github.svg" alt=""></a>
+            <a class="menu__rodape" href="#"><img
+                    src="Developer Portfolio Starter Files/Assets/Social Icons/Twitter.svg" alt=""></a>
+            <a class="menu__rodape" href="#"><img
+                    src="Developer Portfolio Starter Files/Assets/Social Icons/LinkedIn.svg" alt=""></a>
+            <a class="menu__rodape" href="#"><img src="Developer Portfolio Starter Files/Assets/Social Icons/Github.svg"
+                    alt=""></a>
 
-            </nav>
-        </footer>
-        
-
+        </nav>
+    </footer>
+    <script src="botao.js"></script>
 </body>
 
 </html>
